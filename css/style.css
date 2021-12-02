@@ -1,31 +1,101 @@
 html {
-    display: flex;
+    
     box-sizing: border-box;
     background-color: black;
-    
+    overflow: hidden;    
 }
 
 h1, h2 {
     font-family: sans-serif;
     color:rgb(221, 226, 233);
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 /*-------------Header---------------------*/
 
 .intro {
-    display: flex;
+    display: flex;   
+    justify-content: center;
+    /*z-index: 5;*/
+}
+
+#highlight {
+    margin-left: .2em;
+    color: rgb(247, 185, 17);
+}
+
+@media  (min-width: 330px) and (max-width: 481px) {
+    
+    .intro {
+        flex-flow: column;
+        width: 13rem;
+        float: right;        
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #greeting {
+        z-index: 1;
+        margin-bottom: 0;        
+    }
+    
+    #highlight {
+        z-index: 1;
+        margin-top: 0;
+    }
+
 }
 
 /*-------------Nav---------------------------*/
+
+nav {
+    z-index: 1;
+    margin-top: 50%;
+}
+.links {
+    width: 7rem;
+    margin: 0;
+    float: right;
+}
+
 a {
     text-decoration: none;
 }
 
+@media  (min-width: 330px) and (max-width: 481px) {
+
+    nav {
+        margin-top: 25%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+
 /*-------------Main--------------------------*/
 
 .container {
-    /*display: flex;*/
+    position: absolute;
+    bottom: -2%;
+    width: 120%;
+    left: -32%;
 }
 
 img {
-    width: 100%;    
+    width: 95%;
 }
+
+@media (max-width: 481px) and (min-width: 375px) {
+    
+    .container {
+        max-width: 28rem;
+    }
+}
+
