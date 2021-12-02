@@ -1,0 +1,31 @@
+html {
+    display: flex;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+
+h1, h2 {
+    font-family: sans-serif;
+    color:rgb(221, 226, 233);
+}
+/*-------------Header---------------------*/
+
+.intro {
+    display: flex;
+}
+
+/*-------------Nav---------------------------*/
+a {
+    text-decoration: none;
+}
+
+/*-------------Main--------------------------*/
+
+.container {
+    /*display: flex;*/
+}
+
+img {
+    width: 100%;    
+}
