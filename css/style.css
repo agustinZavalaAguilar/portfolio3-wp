@@ -53,6 +53,30 @@ body {
 
 }
 
+@media (min-width: 1000px) {
+    
+    .intro {
+        position: absolute;
+        z-index: 1;
+        left: 20%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    #greeting {
+        margin-bottom: 0;
+    }
+
+    #highlight {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
 /*-------------Nav---------------------------*/
 
 nav {
@@ -85,7 +109,24 @@ h2:hover {
     }
 }
 
+@media (min-width: 1000px) {
 
+    nav {
+        position: absolute;
+        left: 20%;
+        margin-top: 25%;
+
+    }
+
+    .links {
+        position: absolute;
+        z-index: 1;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+}
 /*-------------Main--------------------------*/
 
 .container {
@@ -106,3 +147,15 @@ img {
     }
 }
 
+@media (min-width: 1000px){
+
+    .container {
+        width: 600px;        
+        left: 50%;
+        bottom: -8%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
