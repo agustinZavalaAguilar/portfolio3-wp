@@ -143,6 +143,7 @@ h2:hover {
     .links {
         position: absolute;
         z-index: 1;
+        width: 12rem;
     }
 
     h2{
@@ -156,6 +157,10 @@ h2:hover {
     bottom: -2%;
     width: 120%;
     left: -32%;
+}
+
+#pic2 {
+    display: none;
 }
 
 img {
