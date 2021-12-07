@@ -115,7 +115,7 @@ h2:hover {
     nav {
         margin-top: 25%;
         position: absolute;
-        bottom: 0;
+        /*bottom: 0;*/
         right: 0;        
     }
 }
