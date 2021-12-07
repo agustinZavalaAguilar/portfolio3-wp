@@ -93,11 +93,10 @@ body {
 
 nav {
     z-index: 1;
-    margin-top: 50%;
+    margin-top: 20%;
 }
 .links {
-    width: 7rem;
-    margin-top: -10em;
+    width: 7rem;    
     float: right;
 }
 
