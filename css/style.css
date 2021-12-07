@@ -2,7 +2,7 @@ html {
     
     box-sizing: border-box;
     background-color: black;
-    overflow: hidden;   
+    /*overflow: hidden;*/   
 }
 
 h1, h2 {
@@ -10,9 +10,10 @@ h1, h2 {
     color:rgb(221, 226, 233);
 }
 
-body {
+.index {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 p {
