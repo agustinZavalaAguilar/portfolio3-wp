@@ -2,7 +2,7 @@ html {
     
     box-sizing: border-box;
     background-color: black;
-    overflow: hidden;    
+    overflow: hidden;   
 }
 
 h1, h2 {
@@ -13,6 +13,15 @@ h1, h2 {
 body {
     display: flex;
     flex-direction: column;
+}
+
+p {
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+.common {
+  text-align: center;
+
 }
 
 /*-------------Header---------------------*/
