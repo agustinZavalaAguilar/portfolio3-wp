@@ -28,7 +28,7 @@ body {
     color: rgb(247, 185, 17);
 }
 
-@media  (min-width: 330px) and (max-width: 481px) {
+@media  (min-width: 330px) and (max-width: 750px) {
     
     .intro {
         flex-flow: column;
@@ -51,6 +51,18 @@ body {
         margin-top: 0;
     }
 
+}
+
+@media  (min-width: 751px) and (max-width: 999px) {
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .intro {
+        justify-content: right;
+        z-index: 1;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -109,6 +121,16 @@ h2:hover {
     }
 }
 
+@media (min-width: 482px) and (max-width:999px) {
+
+    nav {
+        display: flex;
+        justify-content: right;
+        margin-right: 2em;
+        margin-top: 0;
+    }
+}
+
 @media (min-width: 1000px) {
 
     nav {
@@ -147,6 +169,18 @@ img {
     }
 }
 
+@media (min-width:482px) and (max-width: 999px) {
+
+    .container {
+        width: 90%;
+        left: 0;
+    }
+
+    img {
+        max-width: 27em;
+    }
+}
+
 @media (min-width: 1000px){
 
     .container {
@@ -159,3 +193,4 @@ img {
         width: 100%;
     }
 }
+
