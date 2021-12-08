@@ -6,7 +6,7 @@ html {
 }
 
 h1, h2 {
-    font-family: sans-serif;
+    font-family: "Exo",sans-serif;
     color:rgb(221, 226, 233);
 }
 
@@ -19,10 +19,13 @@ h1, h2 {
 p {
     color: whitesmoke;
     font-family: sans-serif;
+    font-size: 1em;
 }
 
 .common {
   text-align: center;
+  margin-left: 1rem;
+  color: rgb(247, 185, 17);
 }
 
 .banner {
@@ -31,13 +34,20 @@ p {
 }
 
 #home-autograph {
-    width: 4em;
+    width: 3em;
     float: right;
-    margin: 1rem;
+    margin-top: 1rem;
+    /*position:fixed;*/
 }
 
 
 /*-------------Header---------------------*/
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
 
 .intro {
     display: flex;   
@@ -48,6 +58,7 @@ p {
 #highlight {
     margin-left: .2em;
     color: rgb(247, 185, 17);
+    z-index: 1;
 }
 
 @media  (min-width: 330px) and (max-width: 750px) {
@@ -115,7 +126,7 @@ p {
 
 nav {
     z-index: 1;
-    margin-top: 20%;
+    margin-top: 25%;
 }
 .links {
     width: 7rem;    
