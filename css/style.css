@@ -20,10 +20,22 @@ p {
     color: whitesmoke;
     font-family: sans-serif;
 }
+
 .common {
   text-align: center;
-
 }
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-autograph {
+    width: 4em;
+    float: right;
+    margin: 1rem;
+}
+
 
 /*-------------Header---------------------*/
 
@@ -208,3 +220,10 @@ img {
     }
 }
 
+/*------------ Content---------------------------*/
+
+@media (min-width: 770px) {
+    .text {
+        max-width: 55em;
+    }
+}
