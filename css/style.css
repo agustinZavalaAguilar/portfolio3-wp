@@ -14,9 +14,13 @@ h1 {
     color:rgb(221, 226, 233);
 }
 
-h2 {
+h2,h3 {
     font-family: "Gudea",sans-serif;
-    color:rgb(221, 226, 233);
+    color:rgb(221, 226, 233);    
+}
+
+h3 {
+    text-align: center;
 }
 
 .index {
@@ -246,4 +250,16 @@ img {
     .text {
         max-width: 55em;
     }
+}
+
+/*-------------Work, project cards---------------*/
+
+.card {
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(225, 225, 225, 0.05);
+    align-items: center;
+    margin: 0 7px;
+    padding: 0 10px;
+
 }
