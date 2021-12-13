@@ -275,3 +275,19 @@ img {
     padding: 0 10px;
 
 }
+
+/*-------------Contact-------------------------*/
+
+.icon-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#linkedin {
+    width: 33%;
+}
+
+#email {
+    width: 33%;
+}
