@@ -256,6 +256,25 @@ img {
     }
 }
 
+
+/*--------About, Work, Contact responsiveness--*/
+
+@media (min-width: 1000px ) {
+
+    main {
+        width: 55em;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+}
+
+
+
+
+
 /*--------------About--------------------------*/
 
 .text-presentation {
@@ -290,4 +309,16 @@ img {
 
 #email {
     width: 33%;
+}
+
+/*------------footer-----------------*/
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-arrow {
+    width: 2.5em;
+    margin: 10px;
 }
