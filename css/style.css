@@ -303,13 +303,10 @@ img {
     align-items: center;
 }
 
-#linkedin {
-    width: 33%;
+.contact-icon {
+    width: 25%;
 }
 
-#email {
-    width: 33%;
-}
 
 /*------------footer-----------------*/
 
