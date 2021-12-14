@@ -319,3 +319,7 @@ img {
     width: 2.5em;
     margin: 10px;
 }
+
+svg {
+    margin: 9px;
+}
