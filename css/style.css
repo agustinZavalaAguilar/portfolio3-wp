@@ -31,8 +31,9 @@ h3 {
 
 p {
     color: whitesmoke;
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: "Oxygen", sans-serif;
+    line-height: 1.5em;
 }
 
 .common {
@@ -44,13 +45,14 @@ p {
 .banner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #home-autograph {
     width: 3em;
     float: right;
     margin-top: 1rem;
-    /*position:fixed;*/
+    margin-right: 2em;
 }
 
 #click-here {
@@ -58,6 +60,19 @@ p {
     color:rgb(247, 185, 17);
 }
 
+@media (min-width: 1000px) {
+    
+    .common {
+        margin-left: 18%;
+    }
+
+    #home-autograph {
+        width: 5em;
+        float: right;
+        margin-top: 1rem;
+        margin-right: 6em;
+    }
+}
 /*-------------Header---------------------*/
 
 header {
@@ -271,16 +286,29 @@ img {
     }
 }
 
-
-
-
-
 /*--------------About--------------------------*/
 
 .text-presentation {
     margin: 5px;
 }
 
+svg {
+    margin: 9px;
+}
+
+@media (min-width: 482px) and (max-width: 999px) {
+    .icon-box {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1000px) {
+ 
+    /*find original .icon-box in contact section*/
+    .icon-box {
+        width: 30%;
+    }
+}
 
 
 /*-------------Work, project cards---------------*/
@@ -296,6 +324,9 @@ img {
 }
 
 /*-------------Contact-------------------------*/
+
+/*|| I should relocate .icon-box because it's not
+Contact-specific, where should I relocate it? ||*/
 
 .icon-box {
     display: flex;
@@ -320,6 +351,3 @@ img {
     margin: 10px;
 }
 
-svg {
-    margin: 9px;
-}
