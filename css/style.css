@@ -334,6 +334,10 @@ svg {
         justify-content: space-between;
     }
 
+    .contact {
+        flex-flow: column;
+    }
+
     .card {
         width: 55%;
     }
