@@ -93,6 +93,11 @@ header {
     z-index: 1;
 }
 
+.statement {
+    font-size: 2em;
+    font-weight: 400;
+}
+
 @media  (min-width: 330px) and (max-width: 750px) {
     
     .intro {
@@ -319,8 +324,19 @@ svg {
     background-color: rgba(225, 225, 225, 0.05);
     align-items: center;
     margin: 0 7px;
-    padding: 0 10px;
+    padding: 0 10px;    
+}
 
+@media (min-width: 483px) {
+
+    .cards-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 55%;
+    }
 }
 
 /*-------------Contact-------------------------*/
