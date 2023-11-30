@@ -18,8 +18,8 @@
     <header>
         <div class="banner">         
             <h1 class="common title" >Portfolio</h1> 
-            <a href="../index.html">
-                <img id="home-autograph" src="../resources/signature white.png" alt="autograph home icon">
+            <a href="index.php">
+                <img id="home-autograph" src="<?php echo bloginfo('template_directory' )."/resources/signature white.png"?>" alt="autograph home icon">
             </a>         
         </div>
     </header>
