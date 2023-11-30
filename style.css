@@ -1,0 +1,373 @@
+html {
+    
+    box-sizing: border-box;
+    background-color: black;
+    /*overflow: hidden;*/   
+}
+
+body {
+    margin: 0 8px;
+}
+
+h1 {
+    font-family: "Exo",sans-serif;
+    color:rgb(221, 226, 233);
+}
+
+h2,h3 {
+    font-family: "Gudea",sans-serif;
+    color:rgb(221, 226, 233);    
+}
+
+h3 {
+    text-align: center;
+}
+
+.index {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 1.2em;
+    font-family: "Oxygen", sans-serif;
+    line-height: 1.5em;
+}
+
+.common {
+  text-align: center;
+  margin-left: 1rem;
+  color: rgb(247, 185, 17);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#home-autograph {
+    width: 3em;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 2em;
+}
+
+#click-here {
+    text-align: center;
+    color:rgb(247, 185, 17);
+}
+
+@media (min-width: 1000px) {
+    
+    .common {
+        margin-left: 18%;
+    }
+
+    #home-autograph {
+        width: 5em;
+        float: right;
+        margin-top: 1rem;
+        margin-right: 6em;
+    }
+}
+/*-------------Header---------------------*/
+
+header {
+    position: sticky;
+    top: 0px;
+    background-color: black;
+}
+
+.intro {
+    display: flex;   
+    justify-content: center;
+    /*z-index: 5;*/
+}
+
+#highlight {
+    margin-left: .2em;
+    color: rgb(247, 185, 17);
+    z-index: 1;
+}
+
+.statement {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+@media  (min-width: 330px) and (max-width: 750px) {
+    
+    .intro {
+        flex-flow: column;
+        width: 13rem;
+        float: right;
+        margin-right: .5em;        
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    #greeting {
+        z-index: 1;
+        margin-bottom: 0;        
+    }
+    
+    #highlight {
+        z-index: 1;
+        margin-top: 0;
+    }
+
+}
+
+@media  (min-width: 751px) and (max-width: 999px) {
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    .intro {
+        justify-content: right;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 1000px) {
+    
+    .intro {
+        position: absolute;
+        z-index: 1;
+        left: 20%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    #greeting {
+        margin-bottom: 0;
+    }
+
+    #highlight {
+        margin-top: 0;
+        margin-left: 0;
+    }
+}
+
+/*-------------Nav---------------------------*/
+
+nav {
+    z-index: 1;
+    margin-top: 50%;
+}
+.links {
+    width: 7rem;    
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2:hover {
+    color:rgb(247, 185, 17);
+    margin-left: 15px;   
+    transition: color .5s, margin-left ease-in-out .5s;
+}
+
+@media  (min-width: 330px) and (max-width: 481px) {
+
+    nav {
+        margin-top: 63%;
+        position: absolute;
+        /*bottom: 0;*/
+        right: 0;        
+    }
+}
+
+@media (min-width: 482px) and (max-width:999px) {
+
+    nav {
+        display: flex;
+        justify-content: right;
+        margin-right: 2em;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    nav {
+        position: absolute;
+        left: 20%;
+        margin-top: 25%;
+
+    }
+
+    .links {
+        position: absolute;
+        z-index: 1;
+        width: 12rem;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+}
+/*-------------Main--------------------------*/
+
+.container {
+    position: absolute;
+    bottom: -2%;
+    width: 120%;
+    left: -32%;
+}
+
+#pic2 {
+    display: none;
+}
+
+img {
+    width: 95%;
+}
+
+@media (max-width: 481px) and (min-width: 375px) {
+    
+    .container {
+        max-width: 28rem;
+    }
+}
+
+@media (min-width:482px) and (max-width: 999px) {
+
+    .container {
+        width: 90%;
+        left: 0;
+    }
+
+    img {
+        max-width: 27em;
+    }
+}
+
+@media (min-width: 1000px){
+
+    .container {
+        width: 600px;        
+        left: 50%;
+        bottom: -8%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+/*------------ Content---------------------------*/
+
+@media (min-width: 770px) {
+    .text {
+        max-width: 55em;
+    }
+}
+
+
+/*--------About, Work, Contact responsiveness--*/
+
+@media (min-width: 1000px ) {
+
+    main {
+        width: 55em;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+}
+
+/*--------------About--------------------------*/
+
+.text-presentation {
+    margin: 5px;
+}
+
+svg {
+    margin: 9px;
+}
+
+@media (min-width: 482px) and (max-width: 999px) {
+    .icon-box {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1000px) {
+ 
+    /*find original .icon-box in contact section*/
+    .icon-box {
+        width: 30%;
+    }
+}
+
+
+/*-------------Work, project cards---------------*/
+
+.card {
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(225, 225, 225, 0.05);
+    align-items: center;
+    margin: 0 7px;
+    padding: 0 10px;    
+}
+
+@media (min-width: 483px) {
+
+    .cards-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact {
+        flex-flow: column;
+    }
+
+    .card {
+        width: 55%;
+    }
+}
+
+/*-------------Contact-------------------------*/
+
+/*|| I should relocate .icon-box because it's not
+Contact-specific, where should I relocate it? ||*/
+
+.icon-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-icon {
+    width: 25%;
+}
+
+
+/*------------footer-----------------*/
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-arrow {
+    width: 2.5em;
+    margin: 10px;
+}
+
