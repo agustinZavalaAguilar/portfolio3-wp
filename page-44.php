@@ -18,7 +18,7 @@
     <header>
         <div class="banner">         
             <h1 class="common title" >Portfolio</h1> 
-            <a href="index.php">
+            <a href="front-page.php">
                 <img id="home-autograph" src="<?php echo bloginfo('template_directory' )."/resources/signature white.png"?>" alt="autograph home icon">
             </a>         
         </div>
@@ -37,7 +37,7 @@
                 </p>
                 <a href="https://github.com/agustinZavalaAguilar/2outfit"><p id="click-here">See code here</p></a>
                 <a href="https://agustinzavalaaguilar.github.io/2outfit/">
-                    <img src="../resources/projects/2outfit.png" alt="project 1 view">
+                    <img src="<?php echo bloginfo('template_directory' )."/resources/projects/2outfit.png"?>" alt="project 1 view">
                 </a>
             </div>
                  <!------------------------study project 2------------>
@@ -50,7 +50,7 @@
                  </p>
                  <a href="https://github.com/agustinZavalaAguilar/fotomatic"><p id="click-here">See code here</p></a>
                  <a href="https://agustinzavalaaguilar.github.io/fotomatic/">
-                     <img src="../resources/projects/fotomatic.png" alt="project 1 view">
+                     <img src="<?php echo bloginfo('template_directory' )."/resources/projects/fotomatic.png"?>" alt="project 1 view">
                  </a>
             </div>
 
@@ -60,10 +60,10 @@
     <footer>
         <div class="footer-nav">
             <a href="./about.html">
-                <img class="nav-arrow" src="../resources/backward.png" alt="backward">
+                <img class="nav-arrow" src="<?php echo bloginfo('template_directory' )."/resources/backward.png"?>" alt="backward">
             </a>
             <a href="./contact.html">
-                <img class="nav-arrow" src="../resources/forward.png" alt="forward">
+                <img class="nav-arrow" src="<?php echo bloginfo('template_directory' )."/resources/forward.png"?>" alt="forward">
             </a>
         </div>
     </footer>

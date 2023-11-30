@@ -82,10 +82,10 @@
     <footer>
         <div class="footer-nav">
             <a href="../index.html">
-                <img class="nav-arrow" src="../resources/backward.png" alt="backward">
+                <img class="nav-arrow" src="<?php echo bloginfo('template_directory' )."/resources/backward.png"?>" alt="backward">
             </a>
             <a href="./work.html">
-                <img class="nav-arrow" src="../resources/forward.png" alt="forward">
+                <img class="nav-arrow" src="<?php echo bloginfo('template_directory' )."/resources/forward.png"?>" alt="forward">
             </a>
         </div>
     </footer>

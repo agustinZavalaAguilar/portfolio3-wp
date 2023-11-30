@@ -2,8 +2,8 @@
 
 <nav>
         <div class="links">
-            <a href="http://localhost/wordpress/about/"><h2 id="about">about</h2></a>
-            <a href="http://localhost/wordpress/work/"><h2 id="work">work</h2></a>
+            <a href="http://localhost/wordpress/?page_id=46"><h2 id="about">about</h2></a>
+            <a href="http://localhost/wordpress/?page_id=44"><h2 id="work">work</h2></a>
             <a href="http://localhost/wordpress/?page_id=17"><h2 id="contact">contact</h2></a>
         </div>
     </nav>
