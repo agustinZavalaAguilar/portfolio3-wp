@@ -23,17 +23,24 @@
         </div>
     </header>
     <main>
-        <div class="cards-container contact">
-            <p>
-                I am actively looking to join value-driven projects. 
-                I believe in the power of doing well by doing good. 
-                It is my goal to join a mature and performing team 
-                or to participate in developing such a team where 
-                we may channel our collective energies towards solving 
-                challenging problems while keeping ego friction 
-                to the minimum possible. 
-                If this is also your goal, I would love to have a chat with you!
-            </p>
+        <div class="cards-container contact">   
+            
+            <?php if ( have_posts() ) :
+             while ( have_posts() ) : the_post(); ?>
+    
+    
+    
+        <div class="maincontent">
+            <?php the_content(); ?>
+        </div>
+        <?php wp_link_pages(); ?>
+
+    
+        <?php endwhile; ?>
+    
+
+        <?php endif; ?>
+           
             <p>
                Feel free to send an email to <u>movil82@gmail.com</u> or to contact me through 
                 Linkedin or Github.
