@@ -41,13 +41,13 @@
 
             <div class="icon-box">
                 <a class="contact-icon" href="mailto:movil82@gmail.com?subject=Mail from Portfolio Site">
-                    <img  src="../resources/mail icon.png" alt="email icon">
+                    <img  src="<?php echo bloginfo('template_directory' )."/resources/mail icon.png"?>" alt="email icon">
                 </a>
                 <a class="contact-icon" href="https://www.linkedin.com/in/agustin-zavala-aguilar/">
-                    <img  src="../resources/linkedin.png" alt="Linkedin link">
+                    <img  src="<?php echo bloginfo('template_directory' )."/resources/linkedin.png"?>" alt="Linkedin link">
                 </a>
                 <a class="contact-icon" href="https://github.com/agustinZavalaAguilar">
-                    <img   src="../resources/github.png" alt="">
+                    <img   src="<?php echo bloginfo('template_directory' )."/resources/github.png"?>" alt="">
                 </a>
             </div>
         
