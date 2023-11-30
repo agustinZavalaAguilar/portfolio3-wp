@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agustín Zavala </title>
     <link rel="shortcut icon" href="../resources/signature.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="<?php echo esc_url( get_stylesheet_uri() ); ?>" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Exo:wght@700&family=Hind+Madurai:wght@300&family=Kanit:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gudea&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
     
 </head>
-
+<!----------------------------------This is the work page-------------------------------------->
 <body>
     <header>
         <div class="banner">         
