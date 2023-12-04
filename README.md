@@ -1,2 +1,3 @@
-This is a new iteration of the portfolio 2 project, renamed portfolio3-wp
-The intention is to integrate the portfolio in a wordpress environment and to make it dynamic
+# portfolio3-wp
+ Une nouvelle version pour formation dwwm, sur wordpress
+>>>>>>> bba4a08b5b07ca9237e8e8d50985140a4b1d92fb
